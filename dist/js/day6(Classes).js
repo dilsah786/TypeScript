@@ -1,4 +1,9 @@
 "use strict";
-const arr = [1, 2, 3];
-arr[10] = 11;
-console.log(arr.length);
+class Coder {
+    constructor(name, music, age, lang) {
+        this.name = name;
+        this.music = music;
+        this.age = age;
+        this.lang = lang;
+    }
+}
