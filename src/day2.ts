@@ -43,3 +43,8 @@ let  postId :string|number = 20;
 let isActive :number|boolean = true;
 
 let re:RegExp = /\w+/g;
+
+
+let dil:strOrNum = 5;
+
+console.log(dil);
